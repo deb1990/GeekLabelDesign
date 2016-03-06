@@ -3,32 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel='stylesheet' media='screen and (min-device-width: 768px) and (max-device-width: 1024px)' href='styles/ipadstyles.css' />
-    <link rel='stylesheet' media='screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait)' href='styles/ipadportrait.css' />
-    <link rel='stylesheet' media='screen and (max-device-width: 767px) and (orientation : portrait)' href='styles/mobile.css' />
+    <link rel='stylesheet' media='screen and (min-device-width: 768px) and (max-device-width: 1024px)'
+          href='styles/ipadstyles.css'/>
+    <link rel='stylesheet'
+          media='screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait)'
+          href='styles/ipadportrait.css'/>
+    <link rel='stylesheet' media='screen and (max-device-width: 767px) and (orientation : portrait)'
+          href='styles/mobile.css'/>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".next_btn").click(function () {
+                var self = $(this);
+                $('body').animate({
+                    scrollTop: $(self.data("scrollto")).offset().top
+                }, 500);
+            });
+        });
+
+    </script>
     <title>Geek Level</title>
 </head>
 <body>
 <div class="full_page_content header">
     <img src="assets/Geek-Label-Website-001_03.png" id="logo" class="centered_image">
     <div class="logo_text">A team of self confessed geeks who are all about great digital design</div>
-    <button class="next_btn white"></button>
+    <button data-scrollto=".section1" class="next_btn white"></button>
 </div>
 <div class="full_page_content section1">
     <img src="assets/Geek-Label-Website-001_07.png" id="section1_img" class="centered_image">
     <div class="section_text">Some agencies love <span class="highlight">design</span>, but don't know how to build
     </div>
-    <button class="next_btn colored"></button>
+    <button data-scrollto=".section2" class="next_btn colored"></button>
 </div>
 <div class="full_page_content section2">
     <img src="assets/Geek-Label-Website-001_10.png" id="section2_img" class="centered_image">
     <div class="section_text">Some agencies know how to <span class="highlight">build</span> but can't do design</div>
-    <button class="next_btn colored"></button>
+    <button data-scrollto=".section3" class="next_btn colored"></button>
 </div>
 <div class="full_page_content section3">
     <img src="assets/Geek-Label-Website-001_12.png" id="section3_img" class="centered_image">
     <div class="section_text">We love <span class="highlight">both</span></div>
-    <button class="next_btn colored"></button>
+    <button data-scrollto=".services" class="next_btn colored"></button>
 </div>
 <div class="full_page_content services">
     <div class="services_text">Services</div>
@@ -50,7 +66,7 @@
             <div class="services_round_text">UX Research</div>
         </div>
     </div>
-    <button class="next_btn dark"></button>
+    <button data-scrollto=".clients" class="next_btn dark"></button>
 </div>
 
 <div class="full_page_content clients">
@@ -73,7 +89,7 @@
         <button class="client_nav_btn"></button>
         <button class="client_nav_btn"></button>
     </div>
-    <button class="next_btn dark"></button>
+    <button data-scrollto=".map" class="next_btn dark"></button>
 </div>
 
 <div class="full_page_content map">
@@ -86,7 +102,7 @@
         </div>
     </div>
 
-    <button class="next_btn colored"></button>
+    <button data-scrollto=".contact" class="next_btn colored"></button>
 </div>
 
 <div class="full_page_content contact">
