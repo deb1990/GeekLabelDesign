@@ -307,3 +307,7 @@ button.client_next {
     top: 57px;
     position: absolute;
 }
+
+.client_nav_btn_container{
+    display: none;
+}
