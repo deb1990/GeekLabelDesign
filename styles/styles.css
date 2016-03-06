@@ -1,25 +1,25 @@
 @font-face {
     font-family: MuseoSans;
     font-weight: 100;
-    src: url(font/MuseoSans-100.otf);
+    src: url(../font/MuseoSans-100.otf);
 }
 
 @font-face {
     font-family: MuseoSans;
     font-weight: 300;
-    src: url(font/MuseoSans-300.otf);
+    src: url(../font/MuseoSans-300.otf);
 }
 
 @font-face {
     font-family: MuseoSans;
     font-weight: 500;
-    src: url(font/MuseoSans_500.otf);
+    src: url(../font/MuseoSans_500.otf);
 }
 
 @font-face {
     font-family: MuseoSans;
     font-weight: 700;
-    src: url(font/MuseoSans_700.otf);
+    src: url(../font/MuseoSans_700.otf);
 }
 
 html, body {
@@ -106,17 +106,17 @@ img#section1_img, img#section2_img, img#section3_img {
 }
 
 .next_btn.white {
-    background-image: url(assets/Geek-Label-Website-001_40_2.png);
+    background-image: url(../assets/Geek-Label-Website-001_40_2.png);
 }
 
 .next_btn.colored {
-    background-image: url(assets/Geek-Label-Website-001_50_3.png);
+    background-image: url(../assets/Geek-Label-Website-001_50_3.png);
     height: 70px;
     width: 78px;
 }
 
 .next_btn.mapmarker {
-    background-image: url(assets/Geek-Label-Website-001_49.png);
+    background-image: url(../assets/Geek-Label-Website-001_49.png);
     height: 78px;
     width: 78px;
     top: 0;
@@ -127,7 +127,7 @@ img#section1_img, img#section2_img, img#section3_img {
 }
 
 .next_btn.dark {
-    background-image: url(assets/Geek-Label-Website-001_40.png);
+    background-image: url(../assets/Geek-Label-Website-001_40.png);
 }
 
 .round_box {
@@ -196,7 +196,7 @@ div.section_text > .highlight {
 }
 
 div.map_img {
-    background-image: url(assets/Geek-Label-Website-001_47.png);
+    background-image: url(../assets/Geek-Label-Website-001_47.png);
     width: 100%;
     height: 407px;
     background-size: 100%;
@@ -266,7 +266,7 @@ button.client_prev, button.client_next {
     border: none;
     height: 32px;
     width: 25px;
-    background: url(assets/Geek-Label-Website-0012_37.png) no-repeat;
+    background: url(../assets/Geek-Label-Website-0012_37.png) no-repeat;
     position: absolute;
     left: 100px;
     top: 65px;
@@ -277,7 +277,7 @@ button.client_prev, button.client_next {
 button.client_next {
     right: 100px;
     left: initial;
-    background: url(assets/Geek-Label-Website-0012_38.png) no-repeat;
+    background: url(../assets/Geek-Label-Website-0012_38.png) no-repeat;
 }
 
 .marker_text {
