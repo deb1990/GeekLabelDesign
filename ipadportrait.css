@@ -1,0 +1,52 @@
+img#logo {
+    margin-top: 280px;
+}
+
+div.section_text {
+    padding-top: 180px;
+    width: 400px;
+}
+
+.next_btn {
+    bottom: 100px;
+}
+
+.client_box {
+    width: 270px;
+    height: 160px;
+    display: block;
+    margin: 40px auto;
+}
+
+button.client_prev, button.client_next {
+    top: 260px;
+}
+
+input.contact_textbox, .contact_textarea {
+    height: 65px;
+}
+
+button.contact_btn {
+    height: 65px;
+}
+
+.contact_textarea {
+    height: 500px;
+}
+
+div.map_img {
+    background-size: cover;
+}
+
+.round_box {
+    display: block;
+    margin: 40px 0 40px 250px;
+}
+
+.services_round_text {
+    margin-top: -93px;
+    margin-left: 200px;
+    width: 230px;
+    text-align: left;
+    font-size: 25px;
+}

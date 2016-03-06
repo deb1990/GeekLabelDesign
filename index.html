@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Title</title>
+    <link rel='stylesheet' media='screen and (min-device-width: 768px) and (max-device-width: 1024px)' href='ipadstyles.css' />
+    <link rel='stylesheet' media='screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait)' href='ipadportrait.css' />
+    <title>Geek Level</title>
 </head>
 <body>
 <div class="full_page_content header">
@@ -13,7 +15,8 @@
 </div>
 <div class="full_page_content section1">
     <img src="assets/Geek-Label-Website-001_07.png" id="section1_img" class="centered_image">
-    <div class="section_text">Some agencies love <span class="highlight">design</span>, but don't know how to build</div>
+    <div class="section_text">Some agencies love <span class="highlight">design</span>, but don't know how to build
+    </div>
     <button class="next_btn colored"></button>
 </div>
 <div class="full_page_content section2">
@@ -69,7 +72,14 @@
 
 <div class="full_page_content map">
     <div class="map_text">How to find us</div>
-    <img class="map_img" src="assets/Geek-Label-Website-001_47.png">
+    <div class="map_img">
+        <button class="next_btn mapmarker"></button>
+        <div class="marker_text">
+            <div class="arrow-left"></div>
+            Geek Label<br>4th Floor 27 - 33<br>Bethnal Green Road<br>Shoreditch<br>London<br>E1 6LA
+        </div>
+    </div>
+
     <button class="next_btn colored"></button>
 </div>
 
