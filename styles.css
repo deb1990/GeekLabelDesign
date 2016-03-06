@@ -1,0 +1,265 @@
+@font-face {
+    font-family: MuseoSans;
+    font-weight: 100;
+    src: url(font/MuseoSans-100.otf);
+}
+
+@font-face {
+    font-family: MuseoSans;
+    font-weight: 300;
+    src: url(font/MuseoSans-300.otf);
+}
+
+@font-face {
+    font-family: MuseoSans;
+    font-weight: 500;
+    src: url(font/MuseoSans_500.otf);
+}
+
+@font-face {
+    font-family: MuseoSans;
+    font-weight: 700;
+    src: url(font/MuseoSans_700.otf);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: MuseoSans;
+}
+
+.full_page_content {
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #d83454;
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.section1 {
+    padding-top: 250px;
+    background-color: #f1f2f2;
+}
+
+.section2 {
+    padding-top: 250px;
+    background-color: #f1f2f2;
+}
+
+.section3 {
+    padding-top: 250px;
+    background-color: #f1f2f2;
+}
+
+.services {
+    padding-top: 100px;
+    background-color: #fff;
+}
+
+.clients {
+    padding-top: 100px;
+    background-color: #f1f2f2;
+}
+
+.map {
+    padding-top: 100px;
+    background-color: #f1f2f2;
+}
+
+.contact {
+    background-color: #f1f2f2;
+}
+
+.centered_image {
+    margin: auto;
+    display: block;
+
+}
+
+img#logo {
+    height: 400px;
+}
+
+img#section1_img, img#section2_img, img#section3_img {
+    height: 400px;
+}
+
+.next_btn {
+    height: 65px;
+    width: 65px;
+    background-size: 100% 100%;
+    padding: 0;
+    border: none;
+    background-color: initial;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+}
+
+.next_btn.white {
+    background-image: url(assets/Geek-Label-Website-001_40_2.png);
+}
+
+.next_btn.colored {
+    background-image: url(assets/Geek-Label-Website-001_50_3.png);
+    height: 70px;
+    width: 78px;
+}
+
+.next_btn.dark {
+    background-image: url(assets/Geek-Label-Website-001_40.png);
+}
+
+.round_box {
+    width: 270px;
+    height: 270px;
+    background-color: #d83454;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.client_box {
+    width: 270px;
+    height: 160px;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.round_container, .client_container {
+    text-align: center;
+    position: relative;
+}
+
+.round_box > img, .client_box > img {
+    height: 100%;
+    width: 100%;
+}
+
+div.logo_text {
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 100;
+    width: 715px;
+    margin: auto;
+}
+
+div.section_text {
+    text-align: center;
+    color: #414042;
+    font-size: 40px;
+    font-weight: 300;
+    margin: auto;
+    padding-top: 130px;
+}
+
+div.section_text > .highlight {
+    color: #d83454;
+}
+
+.services_text, .clients_text, .map_text, .contact_text {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    color: #414042;
+    padding-bottom: 200px;
+}
+
+.map_text {
+    padding-bottom: 70px;
+}
+
+.contact_text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+img.map_img {
+    width: 100%;
+}
+
+input.contact_textbox, .contact_textarea {
+    height: 70px;
+    border: 3px solid #cccccc;
+    border-radius: 3px;
+    font-size: 25px;
+    display: block;
+    margin: 35px auto;
+    padding: 5px 20px;
+    width: 550px;
+    font-family: MuseoSans;
+    font-weight: 300;
+    color: #414042;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.contact_textarea {
+    height: 170px;
+    padding-top: 20px;
+    resize: none;
+}
+
+button.contact_btn {
+    width: 550px;
+    display: block;
+    margin: auto;
+    padding: 5px 20px;
+    font-family: MuseoSans;
+    font-weight: 300;
+    font-size: 25px;
+    height: 70px;
+    border: none;
+    background-color: #d83454;
+    color: #fff;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+}
+
+span.contact_phone {
+    height: 70px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    font-family: MuseoSans;
+    font-weight: 300;
+    color: #414042;
+    margin-top: 40px;
+
+}
+
+.services_round_text {
+    color: #414042;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+button.client_prev, button.client_next {
+    border: none;
+    height: 32px;
+    width: 25px;
+    background: url(assets/Geek-Label-Website-0012_37.png) no-repeat;
+    position: absolute;
+    left: 100px;
+    top: 65px;
+    outline:0;
+    cursor: pointer;
+}
+
+button.client_next {
+    right: 100px;
+    left: initial;
+    background: url(assets/Geek-Label-Website-0012_38.png) no-repeat;
+}
